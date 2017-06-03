@@ -36,7 +36,7 @@ describe('Minestraio', () => {
         expect(actual).to.equal('fagiolo fagiolo fagiolo');
     });
 
-    xit('dovrebbe saper preparare una zuppa di farro', () => {
+    it('dovrebbe saper preparare una zuppa di farro', () => {
         // Arrange
         const zuppa = new ZuppaDiFarro();
 

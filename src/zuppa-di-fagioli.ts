@@ -3,6 +3,10 @@ import { Zuppa } from './zuppa';
 export class ZuppaDiFagioli
     extends Zuppa {
 
-    fagioli = ['fagiolo', 'fagiolo', 'fagiolo'];
+    private fagioli = ['fagiolo', 'fagiolo', 'fagiolo'];
+
+    preparaZuppa() {
+        return this.fagioli.join(' ');
+    }
 
 }

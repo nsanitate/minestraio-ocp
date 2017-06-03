@@ -1,1 +1,5 @@
-export abstract class Zuppa { }
+export abstract class Zuppa { 
+
+    abstract preparaZuppa(): string;
+
+}

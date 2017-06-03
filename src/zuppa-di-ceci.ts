@@ -3,6 +3,10 @@ import { Zuppa } from './zuppa';
 export class ZuppaDiCeci
     extends Zuppa {
 
-    ceci = ['cece', 'cece', 'cece', 'cece', 'cece'];
+    private ceci = ['cece', 'cece', 'cece', 'cece', 'cece'];
+
+    preparaZuppa() {
+        return this.ceci.join(' ');
+    }
 
 }

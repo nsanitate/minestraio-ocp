@@ -3,6 +3,10 @@ import { Zuppa } from './zuppa';
 export class ZuppaDiFarro
     extends Zuppa {
 
-    farro = ['farro', 'farro', 'farro', 'farro'];
+    private farro = ['farro', 'farro', 'farro', 'farro'];
 
+    preparaZuppa() {
+        return this.farro.join(' ');
+    }
+    
 }
